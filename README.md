@@ -1,7 +1,6 @@
 # get s3 cloud trail log
 
 A application to get s3 cloud trail log illustrating usage of the AWS SDK for Python (alsoreferred to as `boto3`).
-A simple Python application illustrating usage of the AWS SDK for Python (alsoreferred to as `boto3`).
 
 ## Requirements
   - [python3.7](https://www.python.org/)  
