@@ -1,7 +1,6 @@
 # get s3 cloud trail log
 
 A application to get s3 cloud trail log illustrating usage of the AWS SDK for Python (alsoreferred to as `boto3`).
-A simple Python application illustrating usage of the AWS SDK for Python (alsoreferred to as `boto3`).
 
 ## Requirements
   - [python3.7](https://www.python.org/)  
@@ -15,11 +14,12 @@ A simple Python application illustrating usage of the AWS SDK for Python (alsore
 
 Set the aws_access_key_id and aws_secret_access_key to awsAccessKeyList.csv
 
-[awsAccessKeyList.csv]
-aws_access_key_id,aws_secret_access_key
-<your access key id1>,<your secret key1>
-<your access key id2>,<your secret key2>
-
+[awsAccessKeyList.csv]    
+```bash
+aws_access_key_id,aws_secret_access_key     
+<your access key id1>,<your secret key1>    
+<your access key id2>,<your secret key2>     
+```
 
 ## Running the get s3 cloud trail log sample
 
