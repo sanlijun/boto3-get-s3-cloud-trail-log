@@ -104,7 +104,7 @@ def openOutputFile(args):
     global output_f
     global outFileName
    
-    outFileName = ('.').join(args.access_key_list.split('.')[:-1]) + '_S3_CloudTrail_output.tsv'
+    outFileName = ('.').join(args.access_key_list.split('.')[:-1]) + '_S3_CloudTrail_output_' + datetime.now().strftime("%Y%m%d%H%M%S") +'.tsv'
     output_f = open('out/' + outFileName, 'w', errors='ignore')
     writer = csv.writer(output_f, delimiter='\t', lineterminator='\n')
 
